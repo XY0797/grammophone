@@ -34,15 +34,15 @@ export default function ModeComponent({ mode, edit, transform, analyze, copySpec
     <div id="mode">
       <div id="mode-switch">
         <input id="mode-edit" type="radio" name="mode" value="edit" checked={mode === "edit"} onChange={onChange} />
-        <label className="left" htmlFor="mode-edit">Edit</label>
+        <label className="left" htmlFor="mode-edit">编辑</label>
         <input id="mode-transform" type="radio" name="mode" value="transform" checked={mode === "transform"} onChange={onChange} />
-        <label className="right" htmlFor="mode-transform">Transform</label>
+        <label className="right" htmlFor="mode-transform">转换</label>
       </div>
 
-      <button id="mode-analyze" disabled={mode !== "edit"} onClick={analyze}>Analyze</button>
+      <button id="mode-analyze" disabled={mode !== "edit"} onClick={analyze}>分析</button>
       <button id="mode-copy" onClick={handleCopy} ref={copyButtonRef}>
-        <span className="label">{"Copy Link"}</span>
-        <span className="status">{"Copied!"}</span>
+        <span className="label">{"复制链接"}</span>
+        <span className="status">{"已复制!"}</span>
       </button>
     </div>
   );

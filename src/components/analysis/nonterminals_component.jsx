@@ -1,7 +1,7 @@
 import { formatSymbol, formatSymbolList, listSymbols } from "../helpers.js";
 
 export const ID = "nonterminals";
-export const TITLE = "Nonterminals";
+export const TITLE = "非终结符";
 
 export default function NonterminalsComponent({ grammar }) {
   const { nullable, endable, first, follow, symbolInfo } = grammar.calculations;
@@ -13,11 +13,11 @@ export default function NonterminalsComponent({ grammar }) {
       <table className="symbols">
         <thead>
           <tr>
-            <th>Symbol</th>
-            <th>Nullable?</th>
-            <th>Endable?</th>
-            <th>First set</th>
-            <th>Follow set</th>
+            <th>符号</th>
+            <th>可空?</th>
+            <th>可结束?</th>
+            <th>First 集</th>
+            <th>Follow 集</th>
           </tr>
         </thead>
 
@@ -30,8 +30,8 @@ export default function NonterminalsComponent({ grammar }) {
               return (
                 <tr key={symbol}>
                   <td>{formatSymbol(symbol, symbolInfo)}</td>
-                  <td>{nullable.has(symbol) ? "Nullable" : ""}</td>
-                  <td>{endable.has(symbol) ? "Endable" : ""}</td>
+                  <td>{nullable.has(symbol) ? "可空" : ""}</td>
+                  <td>{endable.has(symbol) ? "可结束" : ""}</td>
                   <td>{formatSymbolList(listSymbols(firstSymbols, symbolInfo.terminalOrder), symbolInfo)}</td>
                   <td>{formatSymbolList(listSymbols(followSymbols, symbolInfo.terminalOrder), symbolInfo)}</td>
                 </tr>

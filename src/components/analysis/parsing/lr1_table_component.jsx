@@ -1,7 +1,7 @@
 import AbstractLRTableComponent from "./abstract_lr_table_component.jsx";
 
 export const ID = "lr1_table";
-export const TITLE = "LR(1) Parsing Table";
+export const TITLE = "LR(1) 解析表";
 
 export default function LR1TableComponent({ grammar }) {
   return (

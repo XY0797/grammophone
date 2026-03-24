@@ -98,11 +98,11 @@ export function classifyLR(table) {
     for (s in table[i]) {
 
       if (typeof table[i][s].reduce !== "undefined" && table[i][s].reduce.length > 1) {
-        return { member: false, reason: "it contains a reduce-reduce conflict" };
+        return { member: false, reason: "它包含一个归约 - 归约冲突" };
       }
 
       if (typeof table[i][s].shift !== "undefined" && typeof table[i][s].reduce !== "undefined" && table[i][s].reduce.length > 0) {
-        return { member: false, reason: "it contains a shift-reduce conflict" };
+        return { member: false, reason: "它包含一个移进 - 归约冲突" };
       }
 
     }

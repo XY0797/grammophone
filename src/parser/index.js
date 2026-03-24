@@ -30,7 +30,7 @@ export default function(src) {
 
   do {
     if (cursor.type.isError) {
-      return { error: new Error("Parse error") };
+      return { error: new Error("解析失败") };
     }
 
     if (cursor.name === "Head") {

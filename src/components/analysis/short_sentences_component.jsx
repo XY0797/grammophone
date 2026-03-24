@@ -2,7 +2,7 @@ import { formatSentence } from "../helpers.js";
 import { takeFromIterator } from "../../grammar/sentences.js";
 
 export const ID = "short_sentences";
-export const TITLE = "Example Sentences";
+export const TITLE = "示例句子";
 
 export default function ShortSentencesComponent({ grammar }) {
   const { symbolInfo } = grammar.calculations;
@@ -12,7 +12,7 @@ export default function ShortSentencesComponent({ grammar }) {
   let examples, link;
 
   if (values.length == 0 && done) {
-    examples = <p>{"No example sentences could be generated."}</p>;
+    examples = <p>{"没有可生成的示例句子"}</p>;
   } else {
     examples = (
       <ul className="symbols">
@@ -26,7 +26,7 @@ export default function ShortSentencesComponent({ grammar }) {
   }
 
   if (!done) {
-    link = <p><a href="#/sentences">{"More example sentences"}</a></p>;
+    link = <p><a href="#/sentences">{"查看更多"}</a></p>;
   }
 
   return (

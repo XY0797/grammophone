@@ -1,7 +1,7 @@
 import AbstractLRAutomatonComponent from "./abstract_lr_automaton_component.jsx";
 
 export const ID = "lr0_automaton";
-export const TITLE = "LR(0) Automaton";
+export const TITLE = "LR(0) 自动机";
 
 export default function LR0AutomatonComponent({ grammar }) {
   return (

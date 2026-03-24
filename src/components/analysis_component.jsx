@@ -22,70 +22,70 @@ const ROUTES = {
       { id: NonterminalsComponent.ID, component: NonterminalsComponent.default },
       { id: ParsingComponent.ID, component: ParsingComponent.default }
     ],
-    path: [{ title: "Analysis" }]
+    path: [{ title: "分析" }]
   },
 
   "/ll1-table": {
     views: [
       { id: LL1TableComponent.ID, component: LL1TableComponent.default }
     ],
-    path: [{ path: "/", title: "Analysis" }, { title: LL1TableComponent.TITLE }]
+    path: [{ path: "/", title: "分析" }, { title: LL1TableComponent.TITLE }]
   },
 
   "/lr0-automaton": {
     views: [
       { id: LR0AutomatonComponent.ID, component: LR0AutomatonComponent.default }
     ],
-    path: [{ path: "/", title: "Analysis" }, { title: LR0AutomatonComponent.TITLE }]
+    path: [{ path: "/", title: "分析" }, { title: LR0AutomatonComponent.TITLE }]
   },
 
   "/lr0-table": {
     views: [
       { id: LR0TableComponent.ID, component: LR0TableComponent.default }
     ],
-    path: [{ path: "/", title: "Analysis" }, { title: LR0TableComponent.TITLE }]
+    path: [{ path: "/", title: "分析" }, { title: LR0TableComponent.TITLE }]
   },
 
   "/slr1-table": {
     views: [
       { id: SLR1TableComponent.ID, component: SLR1TableComponent.default }
     ],
-    path: [{ path: "/", title: "Analysis" }, { title: SLR1TableComponent.TITLE }]
+    path: [{ path: "/", title: "分析" }, { title: SLR1TableComponent.TITLE }]
   },
 
   "/lr1-automaton": {
     views: [
       { id: LR1AutomatonComponent.ID, component: LR1AutomatonComponent.default }
     ],
-    path: [{ path: "/", title: "Analysis" }, { title: LR1AutomatonComponent.TITLE }]
+    path: [{ path: "/", title: "分析" }, { title: LR1AutomatonComponent.TITLE }]
   },
 
   "/lr1-table": {
     views: [
       { id: LR1TableComponent.ID, component: LR1TableComponent.default }
     ],
-    path: [{ path: "/", title: "Analysis" }, { title: LR1TableComponent.TITLE }]
+    path: [{ path: "/", title: "分析" }, { title: LR1TableComponent.TITLE }]
   },
 
   "/lalr1-automaton": {
     views: [
       { id: LALR1AutomatonComponent.ID, component: LALR1AutomatonComponent.default }
     ],
-    path: [{ path: "/", title: "Analysis" }, { title: LALR1AutomatonComponent.TITLE }]
+    path: [{ path: "/", title: "分析" }, { title: LALR1AutomatonComponent.TITLE }]
   },
 
   "/lalr1-table": {
     views: [
       { id: LALR1TableComponent.ID, component: LALR1TableComponent.default }
     ],
-    path: [{ path: "/", title: "Analysis" }, { title: LALR1TableComponent.TITLE }]
+    path: [{ path: "/", title: "分析" }, { title: LALR1TableComponent.TITLE }]
   },
 
   "/sentences": {
     views: [
       { id: SentencesComponent.ID, component: SentencesComponent.default }
     ],
-    path: [{ path: "/", title: "Analysis" }, { title: SentencesComponent.TITLE }]
+    path: [{ path: "/", title: "分析" }, { title: SentencesComponent.TITLE }]
   }
 };
 

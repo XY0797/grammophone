@@ -92,7 +92,7 @@ export function formatSymbol(symbol, info) {
   } else if (info.terminals.has(symbol)) {
     return h("b", null, prettifySymbol(symbol));
   } else {
-    throw new Error("Unknown symbol: " + symbol);
+    throw new Error("未知符号: " + symbol);
   }
 }
 
@@ -144,7 +144,7 @@ export function bareFormatSymbol(symbol, info) {
   } else if (info.nonterminals.has(symbol) || info.terminals.has(symbol)) {
     return barePrettifySymbol(escapeString(symbol));
   } else {
-    throw new Error("Unknown symbol: " + symbol);
+    throw new Error("未知符号: " + symbol);
   }
 }
 
@@ -185,24 +185,24 @@ export function bareFormatItem(item, start, productions, info) {
 
 const TRANSFORMATION_FORMATTERS = {
   expand: function() {
-    return "Expand Nonterminal";
+    return "展开非终结符";
   },
 
   removeImmediateLeftRecursion: function() {
-    return "Remove Immediate Left Recursion";
+    return "消除直接左递归";
   },
 
   leftFactor: function(transformation, productions, info) {
-    return "Left Factor " +
+    return "提取左公因子 " +
       bareFormatSymbols(productions[transformation.production].slice(1, transformation.length + 1), info).join(" ");
   },
 
   epsilonSeparate: function() {
-    return "Epsilon-Separate";
+    return "分离空产生式";
   },
 
   removeUnreachable: function() {
-    return "Remove Unreachable Nonterminal"
+    return "移除不可达非终结符"
   }
 }
 

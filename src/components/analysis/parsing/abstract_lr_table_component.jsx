@@ -16,7 +16,7 @@ export default function AbstractLRTableComponent({ grammar, table }) {
 
       <thead>
         <tr>
-          <th>State</th>
+          <th>状态</th>
           {
             symbolInfo.terminalOrder.map(function(symbol, index) {
               return <th key={"t"+index}>{formatSymbol(symbol, symbolInfo)}</th>;
@@ -45,17 +45,17 @@ export default function AbstractLRTableComponent({ grammar, table }) {
                       let actions = [];
 
                       if (typeof state[s].shift !== "undefined") {
-                        actions.push(<li key="s">{`shift(${state[s].shift})`}</li>);
+                        actions.push(<li key="s">{`移进(${state[s].shift})`}</li>);
                       }
 
                       if (typeof state[s].reduce !== "undefined") {
                         state[s].reduce.forEach(function(p, index) {
                           if (p === -1) {
-                            actions.push(<li key={"r"+index}>{"accept"}</li>);
+                            actions.push(<li key={"r"+index}>{"<接受>"}</li>);
                           } else {
                             actions.push(
                               <li key={"r"+index}>
-                                {"reduce("}
+                                {"规约("}
                                 {formatProduction(productions[p], symbolInfo)}
                                 {")"}
                               </li>

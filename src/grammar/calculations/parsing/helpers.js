@@ -34,7 +34,7 @@ export function getFirst({ first, nullable, terminals, nonterminals }, symbols) 
 
     } else {
 
-      throw new Error("Unexpected symbol " + s);
+      throw new Error("意外的符号 " + s);
 
     }
 
@@ -64,7 +64,7 @@ export function isNullable({ nullable, terminals, nonterminals }, symbols) {
 
     } else {
 
-      throw new Error("Unexpected symbol " + s);
+      throw new Error("意外的符号 " + s);
 
     }
 

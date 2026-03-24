@@ -48,7 +48,7 @@ export default function TransformComponent({ grammar, stack, index, undo, redo, 
   if (typeof undoTransformation !== "undefined") {
     undoButton = (
       <button className="undo" onClick={() => { undo(); }}>
-        {"Undo "}
+        {"撤销 "}
         {formatTransformation(undoTransformation, productions, symbolInfo)}
       </button>
     );
@@ -57,7 +57,7 @@ export default function TransformComponent({ grammar, stack, index, undo, redo, 
   if (typeof redoTransformation !== "undefined") {
     redoButton = (
       <button className="redo" onClick={() => { redo(); }}>
-        {"Redo "}
+        {"重做 "}
         {formatTransformation(redoTransformation, productions, symbolInfo)}
       </button>
     );

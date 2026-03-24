@@ -4,12 +4,12 @@ function formatUnreachable(unreachable, info) {
   if (unreachable.size > 0) {
     return (
       <li>
-        {"The grammar has unreachable nonterminals: "}
+        {"文法包含不可达的非终结符："}
         {formatSymbolList(listSymbols(unreachable, info.productionOrder), info)}
       </li>
     );
   } else {
-    return <li>{"All nonterminals are reachable."}</li>;
+    return <li>{"所有非终结符均可达。"}</li>;
   }
 }
 
@@ -17,12 +17,12 @@ function formatUnrealizable(unrealizable, info) {
   if (unrealizable.size > 0) {
     return (
       <li>
-        {"The grammar has unrealizable nonterminals: "}
+        {"文法包含不可实现的非终结符："}
         {formatSymbolList(listSymbols(unrealizable, info.productionOrder), info)}
       </li>
     );
   } else {
-    return <li>{"All nonterminals are realizable."}</li>;
+    return <li>{"所有非终结符均可实现。"}</li>;
   }
 }
 
@@ -30,13 +30,13 @@ function formatCycle(cycle, info) {
   if (typeof cycle !== "undefined") {
     return (
       <li>
-        {"The grammar is cyclic: "}
+        {"文法是循环的："}
         {formatSymbolList(cycle, info, " \u21D2 ")}
-        {" is a cycle."}
+        {" 是一个循环。"}
       </li>
     );
   } else {
-    return <li>{"The grammar contains no cycles."}</li>;
+    return <li>{"文法不包含循环。"}</li>;
   }
 }
 
@@ -44,15 +44,15 @@ function formatNullAmbiguity(nullAmbiguity, productions, info) {
   if (nullAmbiguity.length > 0) {
     return (
       <li>
-        {"The grammar contains a null ambiguity: "}
+        {"文法包含空歧义："}
         {formatProduction(productions[nullAmbiguity[0]], info)}
-        {" and "}
+        {" 和 "}
         {formatProduction(productions[nullAmbiguity[1]], info)}
-        {" are ambiguously nullable."}
+        {" 存在歧义的空可派生性。"}
       </li>
     );
   } else {
-    return <li>{"The grammar is null unambiguous."}</li>;
+    return <li>{"文法在空派生上是无歧义的。"}</li>;
   }
 }
 
@@ -60,16 +60,16 @@ function formatAmbiguous(ambiguous, info) {
   if (typeof ambiguous !== "undefined") {
     return (
       <li>
-        {"The grammar is ambiguous: the sentence "}
+        {"文法是歧义的：句子 "}
         {formatSentence(ambiguous, info)}
-        {" has an ambiguous derivation."}
+        {" 存在歧义推导。"}
       </li>
     );
   }
 }
 
 export const ID = "sanity";
-export const TITLE = "Sanity Checks";
+export const TITLE = "健全性检查";
 
 export default function SanityComponent({ grammar }) {
   const { unreachable, unrealizable, cycle, nullAmbiguity, productions, symbolInfo } = grammar.calculations;

@@ -10,13 +10,13 @@ export default function(calculations) {
   // We can return immediately if the grammar contains a null ambiguity.
 
   if (nullAmbiguity.length > 0) {
-    return { member: false, reason: "it contains a null ambiguity" };
+    return { member: false, reason: "它包含一个空值歧义" };
   }
 
   // Also, return immediately if the grammar contains a cycle.
 
   if (typeof cycle !== "undefined") {
-    return { member: false, reason: "it contains a cycle" };
+    return { member: false, reason: "它包含一个循环" };
   }
 
   const { productions, first, follow, terminals, nonterminals, nullable } = calculations;
@@ -49,7 +49,7 @@ export default function(calculations) {
 
     for (s of bodyFirst) {
       if (table[head][s]) {
-        return { member: false, reason: "it contains a first set clash" };
+        return { member: false, reason: "它存在 FIRST 集冲突" };
       }
 
       table[head][s] = true;
@@ -62,7 +62,7 @@ export default function(calculations) {
 
   for (k of nullable) {
     if (SetOperations.any(SetOperations.intersection(first.get(k), follow.get(k)))) {
-      return { member: false, reason: "it contains a first/follow set clash" };
+      return { member: false, reason: "它存在 FIRST/FOLLOW 集冲突" };
     }
 
   }

@@ -13,11 +13,11 @@ describe("reducer", function() {
     });
 
     it("returns the expected state with an invalid grammar spec", function() {
-      assert.deepStrictEqual(init("invalid!"), { spec: "invalid!", path: "/", mode: "edit", error: new Error("Parse error") });
+      assert.deepStrictEqual(init("invalid!"), { spec: "invalid!", path: "/", mode: "edit", error: new Error("解析失败") });
     });
 
     it("returns the expected state with a semantically invalid grammar spec", function() {
-      assert.deepStrictEqual(init("A -> \"\"."), { spec: "A -> \"\".", path: "/", mode: "edit", error: new Error("An empty symbol may not be part of a production") });
+      assert.deepStrictEqual(init("A -> \"\"."), { spec: "A -> \"\".", path: "/", mode: "edit", error: new Error("空符号不能作为产生式的一部分") });
     });
   });
 
@@ -29,7 +29,7 @@ describe("reducer", function() {
         state = reducer(state, { type: "setSpec", spec: "invalid!" });
         state = reducer(state, { type: "analyze" });
 
-        assert.deepStrictEqual(state, { spec: "invalid!", path: "/", mode: "edit", grammar: new Grammar([["A"]]), error: new Error("Parse error") });
+        assert.deepStrictEqual(state, { spec: "invalid!", path: "/", mode: "edit", grammar: new Grammar([["A"]]), error: new Error("解析失败") });
       });
 
       it("clears a previously-defined error if the spec doesn't have a parse error", function() {
@@ -94,7 +94,7 @@ describe("reducer", function() {
 
         state = reducer(state, { type: "transform" });
 
-        assert.deepStrictEqual(state, { spec: "invalid!", path: "/", mode: "edit", grammar: undefined, error: new Error("Parse error") });
+        assert.deepStrictEqual(state, { spec: "invalid!", path: "/", mode: "edit", grammar: undefined, error: new Error("解析失败") });
       });
 
       it("doesn't transition to the transform mode if the spec is blank", function() {

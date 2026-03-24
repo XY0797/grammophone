@@ -7,7 +7,7 @@ function takePage(iterator) {
 }
 
 export const ID = "sentences";
-export const TITLE = "Example Sentences";
+export const TITLE = "示例句子";
 
 class SentencesInternalComponent extends Component {
   constructor(props) {
@@ -31,7 +31,7 @@ class SentencesInternalComponent extends Component {
     let examples;
 
     if (this.state.sentences.values.length == 0 && this.state.sentences.done) {
-      examples = <p>{"No example sentences could be generated."}</p>;
+      examples = <p>{"没有可生成的示例句子"}</p>;
     } else {
       examples = (
         <ul className="symbols">
@@ -48,7 +48,7 @@ class SentencesInternalComponent extends Component {
       <section id={ID} className="analysis">
         <h2>{TITLE}</h2>
         {examples}
-        <p><button disabled={this.state.done} onClick={() => { this.more(); }}>{"Generate more sentences"}</button></p>
+        <p><button disabled={this.state.done} onClick={() => { this.more(); }}>{"生成更多"}</button></p>
       </section>
     );
   }

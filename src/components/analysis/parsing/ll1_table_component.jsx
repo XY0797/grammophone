@@ -2,7 +2,7 @@ import { fillArray, formatSymbol, formatProduction } from "../../helpers.js";
 import { END } from "../../../grammar/symbols.js";
 
 export const ID = "ll1_table";
-export const TITLE = "LL(1) Parsing Table";
+export const TITLE = "LL(1) 解析表";
 
 export default function LL1TableComponent({ grammar }) {
   const { symbolInfo, ll1Table: table, productions } = grammar.calculations;

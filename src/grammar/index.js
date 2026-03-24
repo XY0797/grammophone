@@ -7,33 +7,33 @@ export default class Grammar {
     var i, j;
 
     if (!(productions instanceof Array)) {
-      throw new Error("List of productions must be an array");
+      throw new Error("产生式列表必须是一个数组");
     }
 
     if (productions.length < 1) {
-      throw new Error("A grammar must have at least one production");
+      throw new Error("文法必须至少包含一个产生式");
     }
 
     for (i = 0; i < productions.length; i++) {
       if (!(productions[i] instanceof Array)) {
-        throw new Error("Productions must be arrays");
+        throw new Error("产生式必须是数组");
       }
 
       if (productions[i].length < 1) {
-        throw new Error("Productions must have at least one symbol");
+        throw new Error("产生式必须至少包含一个符号");
       }
 
       for (j = 0; j < productions[i].length; j++) {
         if (typeof productions[i][j] !== "string") {
-          throw new Error("Production symbols must be strings");
+          throw new Error("产生式符号必须是字符串");
         }
 
         if (productions[i][j].match(/^Grammar\./)) {
-          throw new Error("Reserved symbol " + productions[i][j] + " may not be part of a production");
+          throw new Error("保留符号 " + productions[i][j] + " 不能作为产生式的一部分");
         }
 
         if (productions[i][j] === "") {
-          throw new Error("An empty symbol may not be part of a production");
+          throw new Error("空符号不能作为产生式的一部分");
         }
       }
     }

@@ -46,23 +46,23 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a cycle"
+        "reason": "它包含一个循环"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       }
     },
     "cycle": [
@@ -228,7 +228,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -258,7 +258,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a cycle"
+      "reason": "它包含一个循环"
     },
     "ll1Table": {
       "S": {
@@ -336,7 +336,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -441,7 +441,7 @@ export default {
     ],
     "lr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lr1Table": [
       {
@@ -488,7 +488,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -5418,11 +5418,11 @@ export default {
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lr1": {
         "member": true
@@ -6276,7 +6276,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -6827,7 +6827,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -7179,11 +7179,11 @@ export default {
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lr1": {
         "member": true
@@ -8303,7 +8303,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -9239,7 +9239,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -9722,11 +9722,11 @@ export default {
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lr1": {
         "member": true
@@ -11133,7 +11133,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -12447,7 +12447,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -19366,18 +19366,18 @@ export default {
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lr1": {
         "member": true
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       }
     },
     "cycle": null,
@@ -20142,7 +20142,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -20655,7 +20655,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -21491,7 +21491,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -21845,18 +21845,18 @@ export default {
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lr1": {
         "member": true
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       }
     },
     "cycle": null,
@@ -22521,7 +22521,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -22980,7 +22980,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -23772,7 +23772,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -24540,18 +24540,18 @@ export default {
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lr1": {
         "member": true
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       }
     },
     "cycle": null,
@@ -26295,7 +26295,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -27381,7 +27381,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -30666,7 +30666,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -31300,7 +31300,7 @@ export default {
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": true
@@ -32234,7 +32234,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -33629,7 +33629,7 @@ export default {
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": true
@@ -34755,7 +34755,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -36302,7 +36302,7 @@ export default {
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": true
@@ -40347,7 +40347,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -46305,15 +46305,15 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lr1": {
         "member": true
@@ -46819,7 +46819,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -47032,7 +47032,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -47525,7 +47525,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -47811,15 +47811,15 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lr1": {
         "member": true
@@ -48586,7 +48586,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "S'": {
@@ -48876,7 +48876,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -49739,7 +49739,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -50010,15 +50010,15 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lr1": {
         "member": true
@@ -50647,7 +50647,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -50926,7 +50926,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -51535,7 +51535,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -51719,7 +51719,7 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": true
@@ -52062,7 +52062,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -52878,7 +52878,7 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": true
@@ -53721,7 +53721,7 @@ export default {
     ],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -55103,7 +55103,7 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": true
@@ -55493,7 +55493,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "Emoticon": {
@@ -56385,22 +56385,22 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lr1": {
         "member": true
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       }
     },
     "cycle": null,
@@ -57202,7 +57202,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -57400,7 +57400,7 @@ export default {
     ],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -57789,7 +57789,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -58666,7 +58666,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -59124,22 +59124,22 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lr1": {
         "member": true
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       }
     },
     "cycle": null,
@@ -60029,7 +60029,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -60239,7 +60239,7 @@ export default {
     ],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "Value": {
@@ -60682,7 +60682,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -61824,7 +61824,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -62450,22 +62450,22 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lr1": {
         "member": true
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       }
     },
     "cycle": null,
@@ -63716,7 +63716,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -63965,7 +63965,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -64473,7 +64473,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -65990,7 +65990,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -66453,23 +66453,23 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       }
     },
     "cycle": null,
@@ -67134,7 +67134,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -67270,7 +67270,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -67597,7 +67597,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -68194,7 +68194,7 @@ export default {
     ],
     "lr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr1Table": [
       {
@@ -68388,7 +68388,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -68829,23 +68829,23 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       }
     },
     "cycle": null,
@@ -69606,7 +69606,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -69800,7 +69800,7 @@ export default {
     ],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "A": {
@@ -70150,7 +70150,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -70940,7 +70940,7 @@ export default {
     ],
     "lr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr1Table": [
       {
@@ -71145,7 +71145,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -71438,23 +71438,23 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first/follow set clash"
+        "reason": "它存在 FIRST/FOLLOW 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       }
     },
     "cycle": null,
@@ -71713,7 +71713,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -71760,7 +71760,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first/follow set clash"
+      "reason": "它存在 FIRST/FOLLOW 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -71874,7 +71874,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -72048,7 +72048,7 @@ export default {
     ],
     "lr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr1Table": [
       {
@@ -72118,7 +72118,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -72328,23 +72328,23 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first/follow set clash"
+        "reason": "它存在 FIRST/FOLLOW 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       }
     },
     "cycle": null,
@@ -72813,7 +72813,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -72896,7 +72896,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first/follow set clash"
+      "reason": "它存在 FIRST/FOLLOW 集冲突"
     },
     "ll1Table": {
       "A": {
@@ -73110,7 +73110,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -73486,7 +73486,7 @@ export default {
     ],
     "lr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr1Table": [
       {
@@ -73603,7 +73603,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -73996,23 +73996,23 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first/follow set clash"
+        "reason": "它存在 FIRST/FOLLOW 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       }
     },
     "cycle": null,
@@ -74750,7 +74750,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -74898,7 +74898,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first/follow set clash"
+      "reason": "它存在 FIRST/FOLLOW 集冲突"
     },
     "ll1Table": {
       "A": {
@@ -75182,7 +75182,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -75790,7 +75790,7 @@ export default {
     ],
     "lr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr1Table": [
       {
@@ -75987,7 +75987,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -76450,11 +76450,11 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": true
@@ -77362,7 +77362,7 @@ export default {
     ],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "A": {
@@ -77652,7 +77652,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -79096,11 +79096,11 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": true
@@ -79988,7 +79988,7 @@ export default {
     ],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "TERM": {
@@ -80291,7 +80291,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -81985,11 +81985,11 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": true
@@ -83706,7 +83706,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "Line": {
@@ -84284,7 +84284,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -87823,15 +87823,15 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lr1": {
         "member": true
@@ -88685,7 +88685,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -88991,7 +88991,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -89951,7 +89951,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -90363,15 +90363,15 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lr1": {
         "member": true
@@ -91200,7 +91200,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "L": {
@@ -91546,7 +91546,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -92508,7 +92508,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -92947,15 +92947,15 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lr1": {
         "member": true
@@ -93949,7 +93949,7 @@ export default {
     ],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "E": {
@@ -94305,7 +94305,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -95640,7 +95640,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -96010,15 +96010,15 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lr1": {
         "member": true
@@ -96791,7 +96791,7 @@ export default {
     ],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -97112,7 +97112,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -97919,7 +97919,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -98217,7 +98217,7 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": true
@@ -98879,7 +98879,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "A": {
@@ -100127,7 +100127,7 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": true
@@ -100735,7 +100735,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -101875,7 +101875,7 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": true
@@ -102688,7 +102688,7 @@ export default {
     ],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -104170,7 +104170,7 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": true
@@ -104671,7 +104671,7 @@ export default {
     ],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -105564,22 +105564,22 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lr1": {
         "member": true
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       }
     },
     "cycle": null,
@@ -106836,7 +106836,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -107073,7 +107073,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "E": {
@@ -107728,7 +107728,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -109322,7 +109322,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -109944,22 +109944,22 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lr1": {
         "member": true
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       }
     },
     "cycle": null,
@@ -111035,7 +111035,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -111277,7 +111277,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -111718,7 +111718,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -113315,7 +113315,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -114053,22 +114053,22 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "lr1": {
         "member": true
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       }
     },
     "cycle": null,
@@ -115573,7 +115573,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -115889,7 +115889,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -116582,7 +116582,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -119596,7 +119596,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -120240,23 +120240,23 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       }
     },
     "cycle": null,
@@ -121101,7 +121101,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -121313,7 +121313,7 @@ export default {
     ],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -121718,7 +121718,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -122469,7 +122469,7 @@ export default {
     ],
     "lr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr1Table": [
       {
@@ -122702,7 +122702,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -123220,23 +123220,23 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first/follow set clash"
+        "reason": "它存在 FIRST/FOLLOW 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       }
     },
     "cycle": null,
@@ -124431,7 +124431,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -124788,7 +124788,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first/follow set clash"
+      "reason": "它存在 FIRST/FOLLOW 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -125221,7 +125221,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -127685,7 +127685,7 @@ export default {
     ],
     "lr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr1Table": [
       {
@@ -128404,7 +128404,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -128988,23 +128988,23 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       }
     },
     "cycle": null,
@@ -129514,7 +129514,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -129611,7 +129611,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "B": {
@@ -129849,7 +129849,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -130372,7 +130372,7 @@ export default {
     ],
     "lr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr1Table": [
       {
@@ -130549,7 +130549,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -130864,23 +130864,23 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first/follow set clash"
+        "reason": "它存在 FIRST/FOLLOW 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       }
     },
     "cycle": null,
@@ -131471,7 +131471,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -131592,7 +131592,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first/follow set clash"
+      "reason": "它存在 FIRST/FOLLOW 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -131854,7 +131854,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -132506,7 +132506,7 @@ export default {
     ],
     "lr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr1Table": [
       {
@@ -132706,7 +132706,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -133038,23 +133038,23 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       }
     },
     "cycle": null,
@@ -133639,7 +133639,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -133741,7 +133741,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "A": {
@@ -134004,7 +134004,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -134459,7 +134459,7 @@ export default {
     ],
     "lr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr1Table": [
       {
@@ -134600,7 +134600,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -135090,23 +135090,23 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       }
     },
     "cycle": null,
@@ -136356,7 +136356,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -136636,7 +136636,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "EXPR": {
@@ -137132,7 +137132,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -140182,7 +140182,7 @@ export default {
     ],
     "lr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr1Table": [
       {
@@ -140859,7 +140859,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -141392,23 +141392,23 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       }
     },
     "cycle": null,
@@ -142003,7 +142003,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -142102,7 +142102,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "A": {
@@ -142345,7 +142345,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -142726,7 +142726,7 @@ export default {
     ],
     "lr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr1Table": [
       {
@@ -142864,7 +142864,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -143276,23 +143276,23 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       }
     },
     "cycle": null,
@@ -144576,7 +144576,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -144907,7 +144907,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "A": {
@@ -145408,7 +145408,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -148847,7 +148847,7 @@ export default {
     ],
     "lr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr1Table": [
       {
@@ -149576,7 +149576,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -150122,23 +150122,23 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first/follow set clash"
+        "reason": "它存在 FIRST/FOLLOW 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "lalr1": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       }
     },
     "cycle": null,
@@ -150746,7 +150746,7 @@ export default {
     ],
     "lalr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lalr1Table": [
       {
@@ -150874,7 +150874,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first/follow set clash"
+      "reason": "它存在 FIRST/FOLLOW 集冲突"
     },
     "ll1Table": {
       "A": {
@@ -151129,7 +151129,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -151744,7 +151744,7 @@ export default {
     ],
     "lr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr1Table": [
       {
@@ -151960,7 +151960,7 @@ export default {
     "removeUnreachableTransformation": [],
     "slr1Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "slr1Table": [
       {
@@ -152205,11 +152205,11 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": true
@@ -152469,7 +152469,7 @@ export default {
     "leftFactorTransformation": [],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "A": {
@@ -152566,7 +152566,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -153574,11 +153574,11 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a shift-reduce conflict"
+        "reason": "它包含一个移进 - 归约冲突"
       },
       "slr1": {
         "member": true
@@ -155689,7 +155689,7 @@ export default {
     ],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "EXP": {
@@ -156347,7 +156347,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a shift-reduce conflict"
+      "reason": "它包含一个移进 - 归约冲突"
     },
     "lr0Table": [
       {
@@ -162000,11 +162000,11 @@ export default {
     "classification": {
       "ll1": {
         "member": false,
-        "reason": "it contains a first set clash"
+        "reason": "它存在 FIRST 集冲突"
       },
       "lr0": {
         "member": false,
-        "reason": "it contains a reduce-reduce conflict"
+        "reason": "它包含一个归约 - 归约冲突"
       },
       "slr1": {
         "member": true
@@ -163150,7 +163150,7 @@ export default {
     ],
     "ll1Classification": {
       "member": false,
-      "reason": "it contains a first set clash"
+      "reason": "它存在 FIRST 集冲突"
     },
     "ll1Table": {
       "S": {
@@ -163504,7 +163504,7 @@ export default {
     ],
     "lr0Classification": {
       "member": false,
-      "reason": "it contains a reduce-reduce conflict"
+      "reason": "它包含一个归约 - 归约冲突"
     },
     "lr0Table": [
       {
